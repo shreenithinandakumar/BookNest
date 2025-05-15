@@ -9,9 +9,20 @@ const Favourite = require("./routes/favourite")
 const Cart = require("./routes/cart")
 const Order = require("./routes/order")
 
-app.use(cors())
-app.use(express.json())
+const allowedOrigins = ['http://localhost:1000', 'https://jovial-baklava-c6b7dc.netlify.app'];
 
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true)
+    } else {
+      callback(new Error('Not allowed by CORS'))
+    }
+  },
+  credentials: true
+}));
+
+app.use(express.json())
 app.use("/api/v1", User)
 app.use("/api/v1", Books)
 app.use("/api/v1", Favourite)
