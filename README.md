@@ -9,21 +9,21 @@ BookNest is a fully functional **MERN stack** bookstore web application that sup
 ## ✨ Features
 
 ### 👤 Customer Features
-- 🔐 Secure login and registration
-- 🏠 Interactive homepage with book categories
-- 🔎 Book search by name or category
-- 🛒 Cart management with checkout process
-- ❤️ Add to favourites
-- 📦 View order history with real-time status updates
+- Secure login and registration
+- Interactive homepage with book categories
+- Book search by name or category
+- Cart management
+- Add to favourites
+- View order history with real-time status updates
 
 ### 🛠️ Admin Features
-- 📚 Add, edit, or delete book listings
-- 📈 Track customer orders
-- 🔄 Change order status (e.g., Pending → Shipped → Delivered)
+- Add, edit, or delete book listings
+- Track customer orders
+- Change order status (e.g., Pending → Shipped → Delivered)
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Layer       | Technology                |
 |-------------|----------------------------|
@@ -34,10 +34,3 @@ BookNest is a fully functional **MERN stack** bookstore web application that sup
 | Deployment  | Netlify (frontend), Render (backend) |
 
 ---
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js 
-- MongoDB (local or MongoDB Atlas)
