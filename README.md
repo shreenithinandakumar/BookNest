@@ -1,12 +1,43 @@
-# React + Vite
+# 📚 BookNest – Full Stack MERN Bookstore Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: [https://jovial-baklava-c6b7dc.netlify.app](https://jovial-baklava-c6b7dc.netlify.app)
 
-Currently, two official plugins are available:
+BookNest is a fully functional **MERN stack** bookstore web application that supports both **customers** and **administrators**. Customers can explore, search, and order books, while admins can manage book inventory and process orders. The interface is styled using **Tailwind CSS** and built for responsiveness and performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👤 Customer Features
+- 🔐 Secure login and registration
+- 🏠 Interactive homepage with book categories
+- 🔎 Book search by name or category
+- 🛒 Cart management with checkout process
+- ❤️ Add to favourites
+- 📦 View order history with real-time status updates
+
+### 🛠️ Admin Features
+- 📚 Add, edit, or delete book listings
+- 📈 Track customer orders
+- 🔄 Change order status (e.g., Pending → Shipped → Delivered)
+
+---
+
+## 🧱 Tech Stack
+
+| Layer       | Technology                |
+|-------------|----------------------------|
+| Frontend    | React.js, Tailwind CSS     |
+| Backend     | Node.js, Express.js        |
+| Database    | MongoDB + Mongoose         |
+| Auth        | JWT (JSON Web Tokens)      |
+| Deployment  | Netlify (frontend), Render (backend) |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 
+- MongoDB (local or MongoDB Atlas)
